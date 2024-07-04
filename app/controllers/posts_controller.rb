@@ -1,6 +1,9 @@
 class PostsController < ApplicationController
 
-    def 
+      def new
+        render :new
+      end
+
       def index
         @ = .scoped
       end
